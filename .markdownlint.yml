@@ -1,0 +1,14 @@
+# Enables all rules with their default settings
+# The default rule is applied first, then keys are processed
+# in order from top to bottom with later values overriding earlier ones.
+# Keys (including rule names, aliases, tags, and default) are not case-sensitive.
+default: true
+
+MD041: false # disable first header
+
+line_length: false #MD013
+
+# This needs to be set to 4 instead of the markdownlint
+# default of 2 because of the way pymdown renders things
+ul-indent: #MD007
+  indent: 4

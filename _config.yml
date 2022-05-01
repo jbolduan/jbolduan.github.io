@@ -18,21 +18,105 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Bolduan Blog
+title_separator: "|"
+subtitle: "A blog about managing workstations and whatever else pops into my noggin."
+email: jbolduan@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A blog written by Jeff Bolduan about managing workstations, and other thinkings.
+# logo: "/assets/images/88x88.png"
+search: true
+
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://blog.jeffbolduan.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+repository: "jbolduan/jbolduan.github.io"
+
+permalink: "/:categories/:title/"
+breadcrumbs: true
+compress_html:
+  clippings: all
+  ignore:
+    envs: development # disable compression in development
+
+name: "Jeff Bolduan"
+#twitter_username: jbolduan
+twitter_username: "jbolduan"
+github_username:  "jbolduan"
+
+author:
+  name: "Jeff Bolduan"
+  avatar: "/assets/images/bio-photo.png"
+  bio: "I work for the University of Minnesota as a Computer Management Engineer and the Product Owner for the Computer Management technologies."
+  location: "Minneapolis, MN"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jbolduan"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jbolduan"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jeffbolduan/"
+
+site.local: en-US
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "R_kgDOGvaq-Q"
+    category_name: "General"
+    category_id: "DIC_kwDOGvaq-c4CO4qB"
+    discussion_term: pathname
+    reactions_enabled: '1'
+    theme: "dark"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      layout: single
+      classes: wide
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+  # _foo
+  - scope:
+      path: ""
+      type: foo
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
