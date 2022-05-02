@@ -1,6 +1,6 @@
 ---
-title:  "Building an OSD Front End Using C#: Part 4 Computer Name Form Design"
-date:   2019-06-12 14:43:30 +0000
+title:  "Building an OSD Front End Using C#: Part 5 Computer Name Form Design"
+date:   2019-04-26 17:15:30 +0000
 categories: sccm frontend C#
 ---
 Now that we have the basic layout of the computer name tab built but we don't have any of the computer naming logic that's our next step.
