@@ -102,14 +102,8 @@ defaults:
       layout: single
       classes: wide
       author_profile: true
-  # _foo
-  - scope:
-      path: ""
-      type: foo
-    values:
-      layout: single
-      classes: wide
-      author_profile: true
+      comments: true
+      share: true
 
 category_archive:
   type: liquid
@@ -117,6 +111,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+include: ["_pages"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
