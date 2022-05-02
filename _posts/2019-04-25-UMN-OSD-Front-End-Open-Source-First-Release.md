@@ -1,7 +1,7 @@
 ---
 title:  "UMN OSD Front End Open Source First Release"
 date:   2019-04-25 18:03:06 +0000
-categories: sccm frontend C# release "UMN OSD Front End"
+categories: sccm frontend C# release UMN OSD Front End
 ---
 ## Overview
 

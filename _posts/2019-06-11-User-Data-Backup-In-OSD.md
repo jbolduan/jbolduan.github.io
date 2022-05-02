@@ -1,7 +1,7 @@
 ---
 title:  "User Data Backup In OSD: Windows 7 to 10 Migration"
 date:   2019-06-11 14:13:27 +0000
-categories: sccm osd windows migration "user data"
+categories: sccm osd windows migration user data
 ---
 Currently, the University of Minnesota is working on our Windows 7 to 10 migration.  One of the key risks identified is that user data could be lost during the transition.  Our current process involves our desktop support technicians manually backing up user data, then running a wipe and reload task sequence followed by a manual restore of user data.  This manually intensive process is also not very consistent.
 
