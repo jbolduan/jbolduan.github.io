@@ -114,6 +114,11 @@ tag_archive:
 
 include: ["_pages"]
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-74316703-1"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
