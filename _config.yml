@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -42,7 +42,7 @@ compress_html:
 name: "Jeff Bolduan"
 #twitter_username: jbolduan
 twitter_username: "jbolduan"
-github_username:  "jbolduan"
+github_username: "jbolduan"
 
 author:
   name: "Jeff Bolduan"
@@ -64,7 +64,7 @@ site.local: en-US
 
 # Build settings
 # theme: minima
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes@4.25.0"
 minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
@@ -78,7 +78,7 @@ comments:
     category_name: "General"
     category_id: "DIC_kwDOGvaq-c4CO4qB"
     discussion_term: pathname
-    reactions_enabled: '1'
+    reactions_enabled: "1"
     theme: "dark"
 
 defaults:
@@ -119,7 +119,6 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "UA-74316703-1"
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
