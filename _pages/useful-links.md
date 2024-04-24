@@ -16,6 +16,7 @@ permalink: /useful-links/
     - [Client Logs](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/log-files#BKMK_ClientLogs)
     - [Function Logs](https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/log-files#BKMK_FunctionLogs)
 - [Get the relationships for a collection](https://jordantheitguy.com/2017/10/01/sccm-collection-relationships/)
+- [Supported SQL Views](https://docs.microsoft.com/en-us/mem/configmgr/develop/core/understand/sqlviews/sql-server-views-configuration-manager)
 
 ## Coding/Scripting
 
